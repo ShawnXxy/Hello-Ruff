@@ -1,0 +1,11 @@
+{
+    "name": "hello-ruff",
+    "version": "0.1.0",
+    "description": "Hello, Ruff!",
+    "author": "Nanchao Inc.",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {},
+        "version": 1
+    }
+}

@@ -1,5 +1,6 @@
 {
     "version": "2.0",
+    "featureVersion": "0.1",
     "id": "ruff-mbd-v1",
     "model": "ruff-mbd-v1",
     "preloads": {
@@ -312,7 +313,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -330,7 +340,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -348,7 +367,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -366,7 +394,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -384,7 +421,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -402,7 +448,13 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ]
+                    }
                 }
             }
         },
@@ -420,7 +472,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -439,7 +500,13 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ]
+                    }
                 }
             }
         },
@@ -457,7 +524,12 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -475,7 +547,12 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -493,7 +570,12 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -511,7 +593,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -537,52 +628,196 @@
             },
             "outputs": {
                 "io-0": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-1": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-2": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-3": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-4": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-5": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-6": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-7": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-8": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-9": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-10": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-11": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-12": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-13": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-14": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 },
                 "io-15": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },

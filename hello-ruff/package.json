@@ -1,11 +1,13 @@
 {
     "name": "hello-ruff",
     "version": "0.1.0",
-    "description": "Hello, Ruff!",
-    "author": "Nanchao Inc.",
+    "description": "Hello, Rull!",
+    "author": "Nancho Inc.",
     "main": "src/index.js",
     "ruff": {
-        "dependencies": {},
+        "dependencies": {
+            "button-gpio": "^2.0.8"
+        },
         "version": 1
     }
 }

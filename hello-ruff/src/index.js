@@ -38,6 +38,15 @@ $.ready(function (error) {
         console.log('Button released.');
         $('#led-r').turnOff();
     });
+    // $('#led').extend({
+    //     toggle: function() {
+    //         if (this.isOn()) {
+    //             this.turnOff();
+    //         } else {
+    //             this.turnOn();
+    //         }
+    //     }
+    // })
 
     // $('#led-r').turnOn();
 });

@@ -6,7 +6,8 @@
     "main": "src/index.js",
     "ruff": {
         "dependencies": {
-            "button-gpio": "^2.0.8"
+            "button-gpio": "^2.0.8",
+            "lcd1602-pcf8574a-hd44780": "^0.2.7"
         },
         "version": 1
     }

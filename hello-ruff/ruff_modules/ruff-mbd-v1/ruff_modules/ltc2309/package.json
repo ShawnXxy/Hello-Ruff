@@ -29,7 +29,7 @@
 		"test": "ruff ./test/test.js"
 	},
 	"devDependencies": {
-		"eslint": "^2.11.1",
+		"eslint": "^4.18.2",
 		"ruff-standard": "^0.1.4",
 		"rvm": "^0.3.2"
 	},
